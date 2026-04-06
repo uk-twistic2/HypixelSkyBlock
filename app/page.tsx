@@ -65,26 +65,26 @@ export default function Home() {
         />
       </div>
 
-      {/* Navigation */}
-      <nav className="relative z-10 px-8 py-8 md:px-16">
-        <ul className="flex flex-wrap gap-6 text-sm font-bold tracking-wide text-white md:gap-12">
-          <li>
-            <a href="#home" className="cursor-pointer transition-all duration-300 hover:text-red-400 hover:drop-shadow-[0_0_8px_rgba(239,68,68,0.8)]">
-              HOME
-            </a>
-          </li>
-          <li>
-            <a href="#pricing" className="cursor-pointer transition-all duration-300 hover:text-red-400 hover:drop-shadow-[0_0_8px_rgba(239,68,68,0.8)]">
-              PRICING
-            </a>
-          </li>
-          <li>
-            <a href="#contact" className="cursor-pointer transition-all duration-300 hover:text-red-400 hover:drop-shadow-[0_0_8px_rgba(239,68,68,0.8)]">
-              CONTACT
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <center>{/* Navigation */}
+        <nav className="relative z-10 px-8 py-8 md:px-16">
+          <ul className="flex flex-wrap gap-6 text-sm font-bold tracking-wide text-white md:gap-12">
+            <li>
+              <a href="#home" className="cursor-pointer transition-all duration-300 hover:text-red-400 hover:drop-shadow-[0_0_8px_rgba(239,68,68,0.8)]">
+                HOME
+              </a>
+            </li>
+            <li>
+              <a href="#pricing" className="cursor-pointer transition-all duration-300 hover:text-red-400 hover:drop-shadow-[0_0_8px_rgba(239,68,68,0.8)]">
+                PRICING
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="cursor-pointer transition-all duration-300 hover:text-red-400 hover:drop-shadow-[0_0_8px_rgba(239,68,68,0.8)]">
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </nav></center>
 
       {/* ── LANDING SECTION ── */}
       <section
